@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.srcbar{
+    display: flex;
+    gap:15px;
+}
+.srch{
+    background-color: white;
+    color: black;
+    width: 25px;
+    height: 25px;
+}
+@media only screen and (max-width:480px) {
+    .srcbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
